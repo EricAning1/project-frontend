@@ -4,7 +4,7 @@ This is a MERN Stack application for my final project at Per Scholas.
 
 [live link](https://project-frontend-7oxf.onrender.com)
 
-[backend link](https://project-backend-gx4h.onrender.com)
+[backend link](https://github.com/EricAning1/project-backend.git)
 
 ## Getting Started
 
