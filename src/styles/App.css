@@ -48,6 +48,56 @@ html {
   padding: 3em;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --primary-color: #0dff92;
+  --dark-color: #222222;
+  --light-color: #f0f0f0;
+}
+
+body,
+html {
+  height: 100%;
+  background: var(--dark-color);
+}
+
+* > * {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: block;
+  position: relative;
+  margin: 40px auto;
+  height: auto;
+  width: 800px;
+  padding: 20px;
+}
+
+.container .title {
+  font-size: 3em;
+  text-align: center;
+  border: 5px solid var(--primary-color);
+  padding: 0.3em 0.2em;
+  border-radius: 4px;
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+.container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.container .questions {
+  padding: 3em;
+}
+
 /* 
 .container .questions .qid{
   padding: .2em .7em;
@@ -110,7 +160,7 @@ ul li label {
   height: 30px;
   z-index: 9;
   cursor: pointer;
-  /* -webkit-transition: all 0.25s linear; */
+  -webkit-transition: all 0.25s linear;
 }
 
 ul li:hover label {

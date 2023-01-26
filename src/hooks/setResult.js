@@ -1,6 +1,5 @@
 import { postServerData } from '../helper/helper';
 import * as Action from '../redux/result_reducer';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const PushAnswer = (result) => async (dispatch) => {
   try {

@@ -1,3 +1,4 @@
+// import React, { useEffect } from 'react';
 import React, { useEffect } from 'react';
 import '../styles/Result.css';
 import { Link } from 'react-router-dom';
